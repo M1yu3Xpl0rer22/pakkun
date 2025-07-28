@@ -29,8 +29,10 @@
 ```bash
 pip install -r requirements.txt
 
+---
 
-🚀 Usage
+### 🚀 Usage:
+
 🧾 Step 1: Prepare Your Subdomain List
 Create a file called subdomains.txt:
 
@@ -43,16 +45,20 @@ test.herokuapp.com
 ghostsite.github.io
 mysite.netlify.app
 
-▶️ Step 2: Run the Tool
+---
+
+### ▶️ Step 2: Run the Tool:
 On Linux/macOS:
 python3 subdomain_takeover_scanner.py subdomains.txt
 
 On Windows:
 python subdomain_takeover_scanner.py subdomains.txt
 
+---
 
 
-🔍 Example Usage & Output
+
+### 🔍 Example Usage & Output
 Sample Command:
 python subdomain_takeover_scanner.py subdomains.txt
 
@@ -63,20 +69,27 @@ Sample Terminal Output:
 [OK] blog.example.com → HTTP 200 (Active / No Fingerprint)
 [UNREACHABLE] unknown.example.com
 
+---
 
-📁 Output Files
+
+### 📁 Output Files
 File Name	Description
 takeover_results.txt	Full scan log (all scanned subdomains + findings)
 vuln_only.txt	Only subdomains with possible takeover risks
 
-📜 License
+---
+
+### 📜 License
 MIT License — see LICENSE for more details.
 
-🛡️ Ethical Notice
+---
+
+# 🛡️ Ethical Notice:
 This tool is made for educational and authorized testing only.
 Do not use against domains you don’t own or control.
 Unauthorized scanning may violate local laws and terms of service.
 
+---
 
-👨‍🎓 Built For Students
+# 👨‍🎓 Built For Students
 Pakkun is created for student researchers, bug bounty beginners, and cybersecurity learners who want a clean, safe, and focused tool for practicing recon and basic vulnerability detection.
